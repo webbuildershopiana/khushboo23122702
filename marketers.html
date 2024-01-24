@@ -71,17 +71,814 @@
 
 <style type="text/css">
 
-* { box-sizing: border-box; } body {margin: 0;}@keyframes fadeEffect{from{opacity:0;}to{opacity:1;}}@media only screen and (max-width: 992px){.hamburger3.active .bar3:nth-child(2){opacity:0;}.hamburger3.active .bar3:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger3.active .bar3:nth-child(3){transform:translateY(-8px) rotate(-45deg);}.hamburger1.active .bar1:nth-child(2){opacity:0;}.hamburger1.active .bar1:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger1.active .bar1:nth-child(3){transform:translateY(-8px) rotate(-45deg);}.hamburger4.active .bar4:nth-child(2){opacity:0;}.hamburger4.active .bar4:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger4.active .bar4:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}
+* { box-sizing: border-box; } body {margin: 0;}.hamburger3{display:none;}.bar3{display:block;width:25px;height:3px;margin:5px auto;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;background-color:#101010;}.accordion{width:90%;max-width:1000px;margin:2rem auto;}.accordion-item{background-color:#fff;color:#111;margin:1rem 0;border-radius:0.5rem;box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.25);}.accordion-item-header{padding:0.5rem 3rem 0.5rem 1rem;min-height:3.5rem;line-height:1.25rem;font-weight:bold;display:flex;align-items:center;position:relative;cursor:pointer;}.accordion-item-header::after{content:"+";font-size:2rem;position:absolute;right:1rem;margin-bottom:8px;}.accordion-item-header.active::after{content:"-";}.accordion-item-body{max-height:0;overflow:hidden;transition:max-height 0.2s ease-out;}.accordion-item-body-content{padding:1rem;line-height:1.5rem;border-top:1px solid;border-image:linear-gradient(to right, transparent, #34495e, transparent) 1;}#iy04x-3{height:auto;width:70%;}#idwam-3{color:black;font-weight:600;}#i8t8u-3{color:black;font-weight:600;}#i8cah-3{color:black;border:2px solid #000000;border-radius:5px 5px 5px 5px;padding:10px 17px 10px 17px;font-weight:600;}#i7shi7-3{padding:30px 20px;display:flex;}#ikxx17-3{width:951px;display:flex;}#ieg52t-3{padding:30px 20px;}#i9fqnf-3{padding:30px 20px;}#i45sc5-3{padding:30px 20px;}#iz3ejp-3{padding:30px 20px;}#i97ydn-3{padding:30px 20px;}#i3z6hm-3{padding:30px 20px;}#ixuksj-3{padding:30px 20px;}#ilp208-3{padding:30px 20px;}#ijzbe5-3{padding:30px 20px;}#imb4uf-3{padding:30px 20px;}#iiqmy3-3{padding:10px;font-weight:500;font-size:14px;}#idwkk8-3{padding:10px;color:#333333;font-size:12px;}#iios4p-3{padding:10px;font-weight:500;font-size:14px;}#i9zewj-3{padding:10px;color:#333333;font-size:12px;}#i24yoe-3{padding:10px;font-weight:500;font-size:14px;}#io7kbk-3{padding:10px;font-weight:500;font-size:14px;}#ikusii-3{padding:10px;font-weight:500;font-size:14px;}#iq1ghl-3{padding:10px;color:#333333;font-size:12px;}#ij022y-3{padding:10px;color:#333333;font-size:12px;}#idiyng-3{padding:10px;color:#333333;font-size:12px;}#iycdti-3{font-weight:600;color:#000000;}#il5xrj-3{padding:10px;font-weight:500;font-size:14px;}#in45ry-3{padding:10px;color:#333333;font-size:12px;}#ieorce-3{padding:10px;font-weight:500;font-size:14px;}#ivepun-3{padding:10px;font-weight:500;font-size:14px;}#ihp531-3{padding:10px;font-weight:500;font-size:14px;}#iitbol-3{padding:10px;font-weight:500;font-size:14px;}#ixkkbd-3{padding:10px;color:#333333;font-size:12px;}#i5y49g-3{padding:10px;color:#333333;font-size:12px;}#if8g6b-3{padding:10px;color:#333333;font-size:12px;}#i043j1-3{padding:10px;color:#333333;font-size:12px;}#imqsbi-3{padding:30px 20px;display:flex;}#ifv2cg-3{display:flex;align-content:flex-end;align-items:center;justify-content:flex-end;}#ip3mlf-3{display:flex;justify-content:flex-end;align-items:center;}#i67n43-3{padding:30px 20px;display:flex;}#ihxkm4-3{display:flex;justify-content:flex-end;align-items:center;}#i9e2x5-3{padding:30px 20px;display:flex;}#izlyco-3{display:flex;justify-content:flex-end;align-items:center;}#iuoyva-3{padding:30px 20px;display:flex;}#ia9651-3{width:100%;}#iqlhiq-3{padding:10px;font-size:14px;font-weight:500;}#ioixtk-3{padding:10px;font-size:12px;}#ivhr1t-3{padding:10px;font-size:14px;font-weight:500;}#i7p0hh-3{padding:10px;font-size:14px;font-weight:500;}#iqe7r4-3{padding:10px;font-size:14px;font-weight:500;}#ivwwsq-3{padding:10px;font-size:12px;}#iwwxdf-3{padding:10px;font-size:12px;}#i8gvxk-3{padding:10px;font-size:12px;}#ipiq5f-3{height:auto;width:33%;}#isfq36-3{height:auto;width:43%;}#i3srgh-3{height:auto;width:33%;}#idbhh2-3{height:55px;width:33%;}#i6i9mk-3{width:759px;}#iwicj6-3{padding:30px 20px;display:flex;background-color:#ffe979;margin:10px;border-radius:6px 6px 6px 6px;}#ie3koa-3{padding:30px 20px 30px 20px;width:416px;display:flex;flex-direction:column;}#ips9ak-3{padding:30px 20px;display:flex;justify-content:center;align-items:center;}#i8patc-3{padding:30px 20px;width:512px;display:flex;flex-direction:column;}#is51s9-3{padding:30px 20px;display:flex;justify-content:center;align-items:center;}#izcyk8-3{padding:30px 20px;display:flex;background-color:#7ed5f0;margin:10px;border-radius:6px 6px 6px 6px;}#i7ptpi-3{padding:30px 20px;width:473px;display:flex;flex-direction:column;}#if6a0f-3{padding:30px 20px;display:flex;justify-content:center;align-items:center;}#i6ps37-3{padding:30px 20px;display:flex;background-color:#b7f598;margin:10px;border-radius:6px 6px 6px 6px;}#iwe2bi-3{height:auto;width:31%;}#i9kqsp-3{height:auto;width:31%;}#id27cu-3{height:auto;width:31%;}#ihdjwi-3{width:369px;}#in06ig-3{font-weight:600;color:black;}#itzxwg-3{font-weight:600;color:black;}#iwgp1i-3{padding:30px 20px;display:flex;}#id0rxe-3{width:48px;}#ib1kdh-3{width:48px;}#ikjcuc-3{padding:30px 20px;display:flex;}#icqrtk-3{width:48px;}#ixj6ut-3{padding:30px 20px;display:flex;}#ij5mbi-3{width:48px;}#i32vou-3{padding:30px 20px;display:flex;}#i984lo-3{padding:0 10px 10px 10px;font-weight:500;font-size:14px;}#iadxfg-3{padding:0 10px 10px 10px;font-weight:500;font-size:14px;}#ipkogy-3{padding:0 10px 10px 10px;font-weight:500;font-size:14px;}#iyb8e1-3{padding:0 10px 10px 10px;font-weight:500;font-size:14px;}#istkma-3{padding:0 10px 10px 10px;font-size:13px;color:#333333;}#i56hbk-3{padding:0 10px 10px 10px;font-size:13px;color:#333333;}#ivyt7k-3{padding:0 10px 10px 10px;font-size:13px;color:#333333;}#i7lvbl-3{padding:0 10px 10px 10px;font-size:13px;color:#333333;}#iqzu04-3{height:auto;width:20px;}#ilzifr-3{height:auto;width:20px;}#in05n2-3{height:auto;width:20px;}#ikkcdu-3{height:auto;width:20px;}#iq21cx-3{width:323px;}#ijrp67-3{color:#d983a6;padding:0px 0px 0px 8px;}#iyzxxy-3{color:rgb(33, 37, 41);font-size:22px;font-weight:500;}#iklu9n-3{color:#d983a6;}#icza5g-3{color:rgb(33, 37, 41);font-size:12px;padding:0px 0px 0px 8px;}#ihm8b7-3{color:#d983a6;}#ipl16s-3{color:rgb(33, 37, 41);font-size:22px;font-weight:500;padding:0 0 0 8px;}#iwe6gg-3{color:#d983a6;}#ilyb42-3{color:rgb(33, 37, 41);font-size:12px;padding:0 0 0 8px;}#i08tdv-3{color:#d983a6;}#if0em5-3{color:rgb(33, 37, 41);font-size:22px;font-weight:500;padding:0 0 0 8px;}#i067o2-3{color:#d983a6;}#i454yq-3{color:rgb(33, 37, 41);font-size:12px;padding:0 0 0 8px;}#ipdx8cn{padding:30px 20px;}#i21qx6k{padding:30px 20px;margin:39px 0px 0px 0px;}#i5ouh45{padding:30px 20px;}#iioqtuz{padding:30px 20px;}#i7j4zor{height:auto;width:100%;}#ix2shph{padding:30px 20px;margin:0px 0px 0px 27px;}#imkazc5{display:flex;justify-content:flex-start;align-items:center;background-color:#b7f598;}#i6krosy{padding:10px;font-weight:500;}#ihafiqm{padding:10px;font-weight:700;font-size:39px;}#iogl7n3{padding:10px;margin:0px 0px 8px 0px;color:#333333;}#iyv42m4{color:white;background-color:#333333;padding:5px 5px 5px 5px;}#i0sfy56{padding:30px 20px;display:flex;justify-content:center;align-items:center;}#idvc3ma{padding:30px 20px;display:flex;justify-content:center;align-items:center;}#iwur7f1{padding:30px 20px;display:flex;justify-content:center;align-items:center;}#ivyzkiw{padding:10px;font-weight:500;font-size:22px;text-align:center;}#i3ytbp1{padding:10px;font-weight:500;font-size:22px;text-align:center;}#ipvvdxl{padding:10px;font-weight:500;font-size:22px;text-align:center;}#i6eyaip{padding:10px;text-align:center;color:#545151;}#inip2sk{padding:10px;text-align:center;color:#545151;}#ine8467{padding:10px;text-align:center;color:#545151;}#igw5xwe{padding:30px 20px;display:flex;justify-content:center;align-items:center;}#i1e82w5{color:black;text-align:left;border-bottom:2px solid #000000;}#ip77xn6{padding:30px 20px;display:flex;justify-content:center;align-items:center;}#ily97xs{padding:30px 20px;display:flex;justify-content:center;align-items:center;}#i1j9qj5{color:black;text-align:left;border-bottom:2px solid #000000;}#i6t5z0e{color:black;text-align:left;border-bottom:2px solid #000000;}#i0m6ouj{height:auto;width:200px;}#ilt6gl8{height:auto;width:200px;}#ij721ax{height:auto;width:200px;}#i88n0ig{padding:10px;text-align:center;font-weight:700;font-size:38px;}#idbcnwr{padding:10px;text-align:center;color:#545151;}#izpkobw{height:auto;width:100%;}#i2vzgag{padding:10px;font-weight:700;font-size:35px;text-align:center;}#icuqsau{padding:10px;text-align:center;color:#545151;}#i10e6oc{padding:30px 20px;}#i1zphq9{height:auto;width:100%;}#it0qoak{height:auto;width:100%;}#ihwu9cz{padding:10px;font-weight:500;font-size:24px;}#i4s144o{padding:10px;font-weight:500;font-size:24px;}#imrruc6{padding:10px;color:#545151;}#io0odif{padding:10px;color:#545151;}#i9lvmtk{padding:30px 20px;}#ik7gjws{padding:10px;font-weight:700;font-size:38px;text-align:center;}#inw6a6n{padding:10px;color:#545151;text-align:center;}#ioejhpu{width:100%;}#i12111x{padding:10px;font-weight:500;font-size:23px;text-align:center;}#ij8deqz{width:100%;}#i2yihxn{width:100%;height:226px;}#ikohmyl{padding:10px;font-weight:500;font-size:23px;text-align:center;}#iw898bl{padding:10px;font-weight:500;font-size:23px;text-align:center;}#i8vo6ie{padding:10px;color:#545151;}#im21xil{padding:10px;color:#545151;}#irrj3n9{padding:10px;color:#545151;}#iph4k8g{padding:30px 20px;}#i9xjr7y{padding:10px;text-align:center;font-weight:700;font-size:38px;}#ix5jbhm{padding:10px;text-align:center;color:#545151;}#ia0dsc2{height:auto;width:100%;}#ieqvcy3{height:auto;width:100%;}#i6didgd{height:auto;width:100%;}#iglt2km{padding:10px;font-weight:600;font-size:28px;}#i1j4v8l{padding:10px;color:#545151;}#ioz10sb{color:black;border-bottom:2px solid #000000;}#ih72ght{padding:10px;font-weight:600;font-size:28px;}#i5p347y{padding:10px;color:#545151;}#ixboswe{color:black;border-bottom:2px solid #000000;}#ig6u1en{padding:10px;font-weight:600;font-size:28px;}#ikn9ehy{padding:10px;color:#545151;}#idwn40m{color:black;border-bottom:2px solid #000000;}#i5cl1gw{padding:30px 20px;background-color:#f1f1f1;margin:40px 0px 40px 0px;}#icicb5i{padding:30px 20px;}#ihsve2k{padding:30px 20px;}#ih1bhal{padding:30px 20px;}#ikydbdo{padding:10px;font-weight:700;font-size:49px;}#ix8spch{padding:10px;color:#545151;font-size:19px;}#ibb7fty{color:black;border-bottom:2px solid #000000;font-weight:500;padding:0px 0px 0px 8px;}#ie62pl-2:active{color:#65bd7d;}#iqf7qm-2:active{color:#65bd7d;}#iq2zil-2:active{color:#65bd7d;}#i6zkqx-2:active{color:#65bd7d;}#iy7jg5-2:active{color:#65bd7d;}#ie62pl-2:nth-of-type(2n){color:#65bd7d;}#iqf7qm-2:nth-of-type(2n){color:#65bd7d;}#iq2zil-2:nth-of-type(2n){color:#65bd7d;}#i6zkqx-2:nth-of-type(2n){color:#65bd7d;}#iy7jg5-2:nth-of-type(2n){color:#65bd7d;}#ib781c-2{height:160px !important;}#iaggrq-2{--awb-content-alignment:initial;--awb-font-size:inherit;--awb-line-height:inherit;--awb-letter-spacing:inherit;--awb-text-transform:inherit;--awb-text-color:inherit;--awb-text-font-family:inherit;--awb-text-font-style:inherit;--awb-text-font-weight:inherit;--awb-columns:var(--text_columns, auto);--awb-column-spacing:var(--text_column_spacing, normal);--awb-column-min-width:var(--text_column_min_width, auto);--awb-rule-style:var(--text_rule_style, initial);--awb-margin-top:0;--awb-margin-right:0;--awb-margin-bottom:10px;--awb-margin-left:0;font-size:18px;line-height:var(--awb-line-height);color:rgb(40, 40, 40);font-family:"Basier Square Regular";margin:var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left);}#ijvt2i-2{margin-right:0px;margin-bottom:0px;margin-left:0px;}#i4o5ci-2{--awb-size:var(--checklist_item_size, inherit);--awb-line-height:27.2px;--awb-margin-top:10px;--awb-margin-right:0;--awb-margin-bottom:0;--awb-margin-left:0;--awb-divider-color:var(--checklist_divider_color);--awb-item-padding-top:var(--checklist_item_padding-top, 0.35em);--awb-item-padding-right:var(--checklist_item_padding-right, 0);--awb-item-padding-bottom:var(--checklist_item_padding-bottom, 0.35em);--awb-item-padding-left:var(--checklist_item_padding-left, 0);--awb-odd-row-bgcolor:var(--checklist_odd_row_bgcolor, transparent);--awb-even-row-bgcolor:var(--checklist_even_row_bgcolor, transparent);--awb-textcolor:var(--checklist_text_color, inherit);--awb-icon-width:27.2px;--awb-icon-height:27.2px;--awb-icon-margin:11.2px;--awb-content-margin:38.4px;--awb-circlecolor:var(--checklist_circle_color);--awb-circle-yes-font-size:inherit;--awb-iconcolor:var(--checklist_icons_color);list-style-type:none;padding:0px;margin:var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left);font-size:var(--awb-size);line-height:var(--awb-line-height);color:rgb(40, 40, 40);font-family:"Basier Square Regular";}#i43jm9-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);--awb-item-padding-top:0;}#ikqc9h-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#i0fq2f-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#iqqx2o-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#i41ks7-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#it6sgh-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#ipnx7m-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#ixzwcx-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#ij0snj-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#iziv8v-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#icqoij-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#izj5bj-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#i1jobl-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#ilxz8w-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#i91fee-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#ihbqdk-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#i167dw-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#i2ob37-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#ijorqk-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#iqpjbq-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#ikfqcr-2{color:rgb(40, 40, 40);font-family:"Basier Square Regular";font-size:18px;}#iccahi-2{color:rgb(40, 40, 40);font-family:"Basier Square Regular";font-size:18px;}#if81lb-2{text-decoration-line:var(--awb-link_decoration_line);text-decoration-thickness:var(--awb-link_decoration_thickness);text-decoration-style:var(--awb-link_decoration_style);transition-property:text-decoration, color, background-color, border-color;transition-duration:0.2s;transition-timing-function:linear;color:var(--link_color);text-underline-offset:var(--awb-link_decoration_underline_offset);font-family:"Basier Square Regular";font-size:18px;}#icm5g4-2{color:rgb(40, 40, 40);font-family:"Basier Square Regular";font-size:18px;}#itkkga-2{text-decoration-line:var(--awb-link_decoration_line);text-decoration-thickness:var(--awb-link_decoration_thickness);text-decoration-style:var(--awb-link_decoration_style);transition-property:text-decoration, color, background-color, border-color;transition-duration:0.2s;transition-timing-function:linear;color:var(--link_color);text-underline-offset:var(--awb-link_decoration_underline_offset);font-family:"Basier Square Regular";font-size:18px;}#i5m0mi-2{color:rgb(40, 40, 40);font-family:"Basier Square Regular";font-size:18px;}#ibu0qj-2{--awb-size:var(--checklist_item_size, inherit);--awb-line-height:27.2px;--awb-margin-top:10px;--awb-margin-right:0;--awb-margin-bottom:0;--awb-margin-left:0;--awb-divider-color:var(--checklist_divider_color);--awb-item-padding-top:var(--checklist_item_padding-top, 0.35em);--awb-item-padding-right:var(--checklist_item_padding-right, 0);--awb-item-padding-bottom:var(--checklist_item_padding-bottom, 0.35em);--awb-item-padding-left:var(--checklist_item_padding-left, 0);--awb-odd-row-bgcolor:var(--checklist_odd_row_bgcolor, transparent);--awb-even-row-bgcolor:var(--checklist_even_row_bgcolor, transparent);--awb-textcolor:var(--checklist_text_color, inherit);--awb-icon-width:27.2px;--awb-icon-height:27.2px;--awb-icon-margin:11.2px;--awb-content-margin:38.4px;--awb-circlecolor:var(--checklist_circle_color);--awb-circle-yes-font-size:inherit;--awb-iconcolor:var(--checklist_icons_color);list-style-type:none;padding:0px;margin:var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left);font-size:var(--awb-size);line-height:var(--awb-line-height);color:rgb(40, 40, 40);font-family:"Basier Square Regular";}#ic2voj-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);--awb-item-padding-top:0;}#izlwuj-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#iw5ncf-2{text-decoration-line:var(--awb-link_decoration_line);text-decoration-thickness:var(--awb-link_decoration_thickness);text-decoration-style:var(--awb-link_decoration_style);transition-property:text-decoration, color, background-color, border-color;transition-duration:0.2s;transition-timing-function:linear;color:var(--link_color);text-underline-offset:var(--awb-link_decoration_underline_offset);}#iihzzu-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#iptntw-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#iz93cj-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#i6w158-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#ivcz4t-2{text-decoration-line:var(--awb-link_decoration_line);text-decoration-thickness:var(--awb-link_decoration_thickness);text-decoration-style:var(--awb-link_decoration_style);transition-property:text-decoration, color, background-color, border-color;transition-duration:0.2s;transition-timing-function:linear;color:var(--link_color);text-underline-offset:var(--awb-link_decoration_underline_offset);}#im3j99-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#ioim9a-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#ieg537-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#inat26-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#ionp3n-2{text-decoration-line:var(--awb-link_decoration_line);text-decoration-thickness:var(--awb-link_decoration_thickness);text-decoration-style:var(--awb-link_decoration_style);transition-property:text-decoration, color, background-color, border-color;transition-duration:0.2s;transition-timing-function:linear;color:var(--link_color);text-underline-offset:var(--awb-link_decoration_underline_offset);}#ihiwtk-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#i868pl-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#ibpyzf-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#ig8ud1-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#igdyp1-2{text-decoration-line:var(--awb-link_decoration_line);text-decoration-thickness:var(--awb-link_decoration_thickness);text-decoration-style:var(--awb-link_decoration_style);transition-property:text-decoration, color, background-color, border-color;transition-duration:0.2s;transition-timing-function:linear;color:var(--link_color);text-underline-offset:var(--awb-link_decoration_underline_offset);}#iihvex-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#i5l0bf-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#ie6tvj-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#i6cdtk-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#i4cfrl-2{text-decoration-line:var(--awb-link_decoration_line);text-decoration-thickness:var(--awb-link_decoration_thickness);text-decoration-style:var(--awb-link_decoration_style);transition-property:text-decoration, color, background-color, border-color;transition-duration:0.2s;transition-timing-function:linear;color:var(--link_color);text-underline-offset:var(--awb-link_decoration_underline_offset);}#i7j17n-2{color:rgb(40, 40, 40);font-family:"Basier Square Regular";font-size:18px;}#i7l11m-2{margin-right:0px;margin-bottom:20px;margin-left:0px;color:rgb(40, 40, 40);font-family:"Basier Square Regular";font-size:18px;}#i3eseh-2{margin-right:0px;margin-bottom:20px;margin-left:0px;color:rgb(40, 40, 40);font-family:"Basier Square Regular";font-size:18px;}#iq1qjk-2{text-decoration-line:var(--awb-link_decoration_line);text-decoration-thickness:var(--awb-link_decoration_thickness);text-decoration-style:var(--awb-link_decoration_style);transition-property:text-decoration, color, background-color, border-color;transition-duration:0.2s;transition-timing-function:linear;color:var(--link_color);text-underline-offset:var(--awb-link_decoration_underline_offset);}#irtdaj-2{--awb-content-alignment:initial;--awb-font-size:inherit;--awb-line-height:inherit;--awb-letter-spacing:inherit;--awb-text-transform:inherit;--awb-text-color:inherit;--awb-text-font-family:inherit;--awb-text-font-style:inherit;--awb-text-font-weight:inherit;--awb-columns:var(--text_columns, auto);--awb-column-spacing:var(--text_column_spacing, normal);--awb-column-min-width:var(--text_column_min_width, auto);--awb-rule-style:var(--text_rule_style, initial);--awb-margin-top:0;--awb-margin-right:0;--awb-margin-bottom:10px;--awb-margin-left:0;font-size:18px;line-height:var(--awb-line-height);color:rgb(40, 40, 40);font-family:"Basier Square Regular";margin:var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left);}#ica7i6-2{margin-right:0px;margin-bottom:0px;margin-left:0px;}#ik5cao-2{--awb-size:var(--checklist_item_size, inherit);--awb-line-height:27.2px;--awb-margin-top:10px;--awb-margin-right:0;--awb-margin-bottom:0;--awb-margin-left:0;--awb-divider-color:var(--checklist_divider_color);--awb-item-padding-top:var(--checklist_item_padding-top, 0.35em);--awb-item-padding-right:var(--checklist_item_padding-right, 0);--awb-item-padding-bottom:var(--checklist_item_padding-bottom, 0.35em);--awb-item-padding-left:var(--checklist_item_padding-left, 0);--awb-odd-row-bgcolor:var(--checklist_odd_row_bgcolor, transparent);--awb-even-row-bgcolor:var(--checklist_even_row_bgcolor, transparent);--awb-textcolor:var(--checklist_text_color, inherit);--awb-icon-width:27.2px;--awb-icon-height:27.2px;--awb-icon-margin:11.2px;--awb-content-margin:38.4px;--awb-circlecolor:var(--checklist_circle_color);--awb-circle-yes-font-size:inherit;--awb-iconcolor:var(--checklist_icons_color);list-style-type:none;padding:0px;margin:var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left);font-size:var(--awb-size);line-height:var(--awb-line-height);color:rgb(40, 40, 40);font-family:"Basier Square Regular";}#i0hxjh-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);--awb-item-padding-top:0;}#izdrio-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#iiwrug-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#izcvpl-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#i17xyz-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#i0ih5w-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#i0g3kq-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#if5c7j-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#i9aokc-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#i9b6zz-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#i6laml-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#ibl1yv-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#i6zvcq-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#ig423d-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#ixtyft-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#i5ci3h-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#ikglzg-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#ixyo42-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#ird7ph-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#i05793-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#idbrnh-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#img6kv-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#it0nmt-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#isonx4-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#ifacoh-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#i6a166-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#il1fea-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#iys3s6-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#i8qud3-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#im0kfk-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#ioce9l-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#itdbfb-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#inauio-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#iloixp-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#ian6hj-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#iy08zf-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#imeur8-2{text-decoration-line:var(--awb-link_decoration_line);text-decoration-thickness:var(--awb-link_decoration_thickness);text-decoration-style:var(--awb-link_decoration_style);transition-property:text-decoration, color, background-color, border-color;transition-duration:0.2s;transition-timing-function:linear;color:var(--link_color);text-underline-offset:var(--awb-link_decoration_underline_offset);}#i75mjd-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-even-row-bgcolor);}#ihmbjb-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#isja3v-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#ifsix1-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#ia2szm-2{padding-top:var(--awb-item-padding-top);padding-right:var(--awb-item-padding-right);padding-bottom:var(--awb-item-padding-bottom);padding-left:var(--awb-item-padding-left);margin-left:0px;background-color:var(--awb-odd-row-bgcolor);}#i0wq7k-2{display:flex;align-items:center;justify-content:center;flex-shrink:0;float:left;width:var(--awb-icon-width);height:var(--awb-icon-height);margin-inline-end:var(--awb-icon-margin);}#ikx5fe-2{-webkit-font-smoothing:antialiased;display:inline-block;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;text-rendering:auto;line-height:1;font-family:"Font Awesome 5 Pro";font-weight:900;color:var(--awb-iconcolor);}#iot3zj-2{color:var(--awb-textcolor);margin-inline-start:var(--awb-content-margin);}#itvghl-2{font-weight:700;font-size:50px;}#i92vv14{padding:10px;font-weight:700;font-size:50px;}#ivpzr9m{padding:10px;font-size:19px;color:black;margin:0px 0px 26px 0px;}#i1pjl4q{color:white;background-color:#2e2929;padding:11px;margin:14px;border-radius:5px 5px 5px 5px;font-weight:600;font-size:20px;}#ifobwtg{padding:30px 20px;}#idsbl63{background-color:#b7f598;border-radius:5px 5px 5px 5px;}#i53kkrw{padding:30px 20px;position:absolute;top:-89%;font-size:-1px;}#i0n51yg{height:auto;width:200px;}#i1xoi0d{width:150px;height:150px;}#impkjmm{color:white;font-weight:500;}#iox3taj{color:white;font-weight:500;}#i81ph4f{color:white;font-weight:500;}#i2f14d9{color:white;font-weight:500;}#i5uoxv5{color:white;font-weight:500;}#iqujknp{color:white;font-weight:500;}#ip3zk5i{color:white;font-weight:500;}#ikn68wu{color:white;font-weight:500;}#iturh1p{color:white;font-weight:500;}#i8nvbw2{color:white;font-weight:500;}#ioudkyn{background-color:#000000;}#is3xzqh{color:white;}#izf4kri{color:white;}#iy1amxz{color:white;}#icqiwyy{display:flex;justify-content:space-around;}#iua88yf{padding:107px 20px 30px 20px;background-color:#000000;position:relative;margin:497px 0px -64px 0px;}#is2n0jy{height:auto;width:100%;}#ikuc04h{padding:30px 20px;}#inlgz79{padding:30px 20px;}#imuig6f{padding:10px;text-align:center;font-weight:500;font-size:23px;}#ijc69br{padding:10px;text-align:center;font-weight:500;font-size:23px;}#isqwqoc{padding:10px;text-align:center;font-weight:500;font-size:23px;}#ircb6r7{padding:10px;text-align:center;font-weight:500;font-size:23px;}#idyeedh{padding:10px;text-align:center;font-weight:500;font-size:23px;}#ivh215a{padding:10px;text-align:center;font-weight:500;font-size:23px;}#insydi1{padding:10px;text-align:center;color:#545151;}#i9y1yan{padding:10px;text-align:center;color:#545151;}#iodlft5{padding:10px;text-align:center;color:#545151;}#ifs2n54{padding:10px;text-align:center;color:#545151;}#irx2v2b{padding:10px;text-align:center;color:#545151;}#iuvr23h{padding:10px;text-align:center;color:#545151;}#ikqfedr{height:auto;width:100%;}#im3ywgs{height:auto;width:100%;}#ic4ggg7{height:auto;width:100%;}#iac146e{height:auto;width:100%;}#isqjadk{height:auto;width:100%;}#il13pq8{height:auto;width:100%;}@keyframes fadeEffect{from{opacity:0;}to{opacity:1;}}@media only screen and (max-width: 992px){.hamburger3{display:block;cursor:pointer;}.hamburger3.active .bar3:nth-child(2){opacity:0;}.hamburger3.active .bar3:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger3.active .bar3:nth-child(3){transform:translateY(-8px) rotate(-45deg);}.hamburger1.active .bar1:nth-child(2){opacity:0;}.hamburger1.active .bar1:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger1.active .bar1:nth-child(3){transform:translateY(-8px) rotate(-45deg);}.hamburger4.active .bar4:nth-child(2){opacity:0;}.hamburger4.active .bar4:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger4.active .bar4:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}@media (max-width: 990px){#i53kkrw{width:100%;display:flex;justify-content:center;align-items:center;top:-65%;}#iua88yf{margin:89vh 0px 0px 0px;}}@media (max-width: 766px){#ivpzr9m{margin:0px 0px 15px 0px;}#i1pjl4q{font-size:14px;margin:14px 14px 6px 14px;}#iw8ywzn{display:flex;align-content:center;align-items:center;}#i53kkrw{top:-56%;}#iua88yf{margin:101vh 0px 0px 0px;}}@media (max-width: 576px){#i1pjl4q{padding:11px 17px 11px 11px;}#idsbl63{margin:0px 115px 0 23px;}#i53kkrw{top:-56%;}}@media (max-width: 380px){#i92vv14{font-size:27px;}#ivpzr9m{padding:4px;font-size:15px;}#i1pjl4q{padding:6px 10px 6px 10px;font-size:13px;}#idsbl63{margin:0px 68px 0px 23px;}#i53kkrw{top:-56%;margin:101px 0px 0px 0px;padding:0px 0px 0px 0px;}#iua88yf{margin:95vh 0px 0px 0px;}}
 
 </style>
 
 </head>
 		<html>
  <head></head>
- <body>
-  <div>
-   Main page
+ <body id="iqizswu">
+  <nav custom_block_template="true" block_id="customBlockTemplate_navbar_navbars" id="iuhk-3" draggable="true" class="navbar navbar-expand-lg bg-white p-3 gjs-selected">
+   <div id="ihpi" draggable="true" class="container">
+    <div id="ii2q-3" draggable="true" class="hamburger3">
+     <span id="izmi" draggable="true" class="bar3"></span><span id="i5ae" draggable="true" class="bar3"></span><span id="itg1" draggable="true" class="bar3"></span>
+    </div><a id="iwdj-3" draggable="true" href="#" class="navbar-brand"><strong id="iad7-3" draggable="true"></strong><img id="iy04x-3" draggable="true" src="https://avada.com/wp-content/uploads/2021/07/avada-logo-svg.svg" alt="Image" class="img-fluid"></a>
+    <div id="collapseId-3" draggable="true" class="collapse navbar-collapse">
+     <ul id="i4lgl-3" draggable="true" class="navbar-nav ms-auto">
+      <div id="idwcdf-3" draggable="true" class="nav-item dropdown">
+       <a id="iycdti-3" draggable="true" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Avada</a>
+       <div id="i6i9mk-3" draggable="true" class="dropdown-menu">
+        <section id="i7shi7-3" draggable="true" class="p-0">
+         <div id="ikxx17-3" draggable="true" class="container">
+          <div id="iutkoj-3" draggable="true" class="container p-0">
+           <section id="ieg52t-3" draggable="true" class="p-0">
+            <div id="iiqmy3-3" draggable="true">
+             Live Visual Builder
+            </div>
+            <div id="idwkk8-3" draggable="true">
+             The only limit is your imagination
+            </div>
+           </section>
+           <section id="i3z6hm-3" draggable="true" class="p-0">
+            <div id="iios4p-3" draggable="true">
+             Header Builder
+            </div>
+            <div id="i9zewj-3" draggable="true">
+             Build Custom Header Layouts
+            </div>
+           </section>
+           <section id="i97ydn-3" draggable="true" class="p-0">
+            <div id="i24yoe-3" draggable="true">
+             Footer Builder
+            </div>
+            <div id="iq1ghl-3" draggable="true">
+             Create a footer form scratch
+            </div>
+           </section>
+           <section id="iz3ejp-3" draggable="true" class="p-0">
+            <div id="io7kbk-3" draggable="true">
+             Form Builder
+            </div>
+            <div id="ij022y-3" draggable="true">
+             Form that work efficiently
+            </div>
+           </section>
+           <section id="i45sc5-3" draggable="true" class="p-0">
+            <div id="ikusii-3" draggable="true">
+             Setup Wizard
+            </div>
+            <div id="idiyng-3" draggable="true">
+             Build website on the fly, and fast
+            </div>
+           </section>
+          </div>
+          <div id="ieyiqd-3" draggable="true" class="container p-0">
+           <section id="i9fqnf-3" draggable="true" class="p-0">
+            <div id="il5xrj-3" draggable="true">
+             Layout Builder
+            </div>
+            <div id="in45ry-3" draggable="true">
+             Build stylish layout
+            </div>
+           </section>
+           <section id="imb4uf-3" draggable="true" class="p-0">
+            <div id="ieorce-3" draggable="true">
+             Mega menu Builder
+            </div>
+            <div id="ixkkbd-3" draggable="true">
+             Build a custom mega menu
+            </div>
+           </section>
+           <section id="ijzbe5-3" draggable="true" class="p-0">
+            <div id="ivepun-3" draggable="true">
+             WooCommerce Builder
+            </div>
+            <div id="i5y49g-3" draggable="true">
+             Start selling with avada
+            </div>
+           </section>
+           <section id="ilp208-3" draggable="true" class="p-0">
+            <div id="ihp531-3" draggable="true">
+             Off-Canvas Builder
+            </div>
+            <div id="if8g6b-3" draggable="true">
+             Capture your visitor's attention
+            </div>
+           </section>
+           <section id="ixuksj-3" draggable="true" class="p-0">
+            <div id="iitbol-3" draggable="true">
+             Performance Wizard
+            </div>
+            <div id="i043j1-3" draggable="true">
+             Optimize your website easily
+            </div>
+           </section>
+          </div>
+         </div>
+         <div id="ia9651-3" draggable="true" class="container p-0">
+          <section id="imqsbi-3" draggable="true" class="p-0">
+           <div id="iy6x54-3" draggable="true" class="container p-0">
+            <div id="iqlhiq-3" draggable="true">
+             Elements
+            </div>
+            <div id="ioixtk-3" draggable="true">
+             120+ Design elements
+            </div>
+           </div>
+           <div id="ifv2cg-3" draggable="true" class="container p-0">
+            <img id="ipiq5f-3" draggable="true" src="data:image/jpeg;base64,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" alt="Image" class="img-fluid">
+           </div>
+          </section>
+          <section id="iuoyva-3" draggable="true" class="p-0">
+           <div id="ijk8xo-3" draggable="true" class="container p-0">
+            <div id="ivhr1t-3" draggable="true">
+             Prebuilt Websites
+            </div>
+            <div id="i8gvxk-3" draggable="true">
+             101 Prebuilt websites
+            </div>
+           </div>
+           <div id="izlyco-3" draggable="true" class="container p-0">
+            <img id="isfq36-3" draggable="true" src="data:image/jpeg;base64,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" alt="Image" class="img-fluid">
+           </div>
+          </section>
+          <section id="i9e2x5-3" draggable="true" class="p-0">
+           <div id="ial241-3" draggable="true" class="container p-0">
+            <div id="i7p0hh-3" draggable="true">
+             Avada Studio
+            </div>
+            <div id="iwwxdf-3" draggable="true">
+             514 Prebuilt Content Items
+            </div>
+           </div>
+           <div id="ihxkm4-3" draggable="true" class="container p-0">
+            <img id="i3srgh-3" draggable="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAADvCAMAAABfYRE9AAAAsVBMVEX///9ggZJgf5DlVi5VeYxQdon8/P1ZfI53k6GqusLV3eHR2d3n6+2arbiVqbTi5+qhsrz19/i6xs3L1dq0wcnlUiiAmabkTBzkUCRPc4bkSBT++PbkSxlkhJXjRQnjQgD0wrf2zMP419DtkXz76OT539nrhGzxq5zmXzp9laNuipmNoa388O7mXTfpdlnumYbytKfwo5PqfWPobU7nZ0jzu6/siXPtlIDwp5foa0pBbYIteyfwAAAM00lEQVR4nO2deXuqOhCHrQ2i1oqoiODaRetWu56envv9P9hlUbJDWMLyPPz+uKeXWpvXmUxmhoQ2GrVq1apVq1atWrVq1apVbs1mJ0+zogeSgWab9cvT+fvVMJeO7Pn09fv89v7wXPS4kup5/fZt23NzahjGbSDDmJrO1d3ne9Hji6vT+ul1OZ8iLIQMY/lW9CDj6PTncx7Gc9GqOh748LkyI3lcmS9FD1VMpw/DFgJyNP1b9GhFtPmxTUEg106/RY83WpvzcipO5MynTdEjjtJmuwxzOuMieGX+VPSQIzR74tjIMExnOVouv8+fn+evf6+mu/KaziK13BY95gi9MIkM01lbt79/Hp/RlOi0efjdbj8eCxuskB53cxpoas/PL4+noseWUG/0RDJs8+mhuvnqZkeGb8Ocbx+KHlYavZNGMuzb96p6nKfZ1iaJvtdFDyqdnm+nBNG/Sjudo0ciV53vqk7UWC/x4G3+KXpEqfWywpCWP9WN3Ve9YdFhOg11u9nz5vFhvX543DyXmBxHsj+5Q31ef3w6SZJtzx05/5i7pz/lTC8+UCRjyemXPP/ZmlRXwu2xrEpYOr0vsUEy89HN7/eSW8QvS1e3r9HwMP1meNLsfWeHdiVWJXO/DYpknukXPL/xLXT9sXK1905YtfpDff/5x46u4c2PAkbO1y60AJ/9FepKlMtOf5HagkZ6N8X6LKWaTw9IyDNJx9v8s9kIbntlOg2aLMaqTHHvhFhpSoaHjxUjMjglom3szp/bn5/t+Ws3ddZd+6tU3YhP6FrGDv/W6YtqSxjm8nb78oAmRLPTpmRpxBrxrTk+tAey62+Yq6/38vf5Z4jnLXH/+V0RRPbupVz24OgJet4cn+U/eHAwlueK1IcbGPMMPD58Ys0jo2RBIExfcMbgk+kLQzIrVMMjS5ON1elndJ01ylhIcPUvMJPxhV4/o1YyX0t/CwbRAwwDSzREb1Ekm85py6xzYCbsruUvGvF4FW9JhQQ9GwkQaP5nLCsT7nzBtQmtfU6IlQyzSlPJFbTHEknfkPB+a1cNaR0kqFNkA8o7YqZVxRwPjRA2DHqo5y2rs9BeBCOEgdxc3sLF1i5TlScm6Ho2tAfSQJqW/TY6Q3DBncOL0B+NW+ZPtXrdTKXpWTIFMwcJ5I9IYsGKD/r9jQIy1mLQzQ7q0iFHDfIZmInZrdOAepO9VKDe97KCelpNDcO8RYIeDBs7xut7Moh8LGWiZQT1+PTv6wVZbt/NUM+TReRTDTKCIhRECGbM60gzk091yDRcXBWsTTarObSQiuRALTKbVYiufXPmfskekMzkSIKlPi7zaclqeWmKfCY1e0vNXj3vWzHzPC0HO93cZA91Oq/m9nLN/B7KpKYVH0qC+23WvPoCYTrcp1QfgSD5pES/SCa1n/a9WhDkMF7gTr3IESpLJh0ytRuNITFT84OSx9ToKgVBSWRqdAtyP5lMhKXUvCwllYl0v5wsJZeJtFQ+UJKZCoEKY9K7o2GcMbCYioDiMunDPVAAsGKkakymAqAgkzJCh9dXQNMVGIu/F5spf6iACdzBi72+pTZ9WTE6Chym3KGuTAAZewdciZrNQ4z34jHlDXVhUmA3TmuCgKiJOWSUuEw5Q/lMyjC40LGaiBZx3ovPRKRJkqE8JtAJ/n8CUCQwDPlRSiFMuVrKZVKDEegHtZnYTKFMeUK5TOC6BukLHCmemcKZcnQ/hykYeYuwUrOJv7YV8V7hTI27vCylAXVy/bpNILmwrZ52NxwP+vuFYkV5YgRTbu6nKcHKdA8IK7kME8u9jaN6tABrfusj0m5RTHm5n2bdX74aWU3aTJqCXrGQe0oasMgxRTJRlory5oRM/10G1iLnkmemI3EV/qDjqOo+LhMJxXtZOmnXbPyeZAJOCtHzbKcCRfVTWpi7d10DKnhcFGAiA8U973Vp1L3MJo30PM9MHiiYdN3Z48V565rp7r2P4CY2EwGlZHiHFI7j8u+ENJOb6ekuqHKtNjw/VP0f6PofAV6JCDER7hcnR46pHmUm95d1HArEPRYu09H7cn/5CFT0TcSYcEsBGYbyRc0m10xe2FBhbLpz55TlZuqBpwKskBRjwiwFV8es1SKXJs9MYxDYxZe/SumIp2JDEmVyPhzEULJW3hHJ5NVN3qA7yMsOXlxooQEFHZIwE9pLj5lTiotchjwzDRUWkxsWkJejQxJnahzkOx/peU13Ne2B61fXMbsXAB73Ud+MwTSChlIkJRNU1PM+/qF7GWlUdBwmt3zErcpkOgzDNYYvBVntC8E1pEKEP0+8wQcriBfvnet43EcagAhT5H1UJEjImVADKtfzA5ofzNuXZda7fE+aCemhoUziUmN0EGOIChHNS+TzcnUV9Iej4cTL0JVeo4el6mgqkZCpwx9YCrVppIv39T1a1SmhfOsdr5egQZGiKgmSLKYDi8mLaK0b7JozecgsCm2zt0vEtGAx+Tl4F0VwJxlhJiyYk7elS2cnR+7KMVBU1/UsoDYXB42cTUR2VCI7MefT1a2O9+PhqNvT/ehHJbtYQphkp48kJqp4unofVQjo1EqG37bqxt+HKomJnCOBiO5Xq0WZCYt7LvTR7TLF2ZskianDYwIDXeuOhuPO/XHSPjSBRb+QSgP0UURe5GmgSmaiSg1oBcUCwP/kedjJClXY6pPERFfu4rKS1XR3splayZFi3voIJJ2JG/iilXRXhXwmRrEhKBDn5igi+Uw6mR2I2ylhlSqfKbHzJd7QkwNTN2Hki7N9AlMOTNw0NkL76HdmKw+mUaIZRSeEopLN5HVJOLl5qII6YzTmibexTDLTyHL/S/fDoqVcekYtftoKFHZbSC5T1/LbJJ3Ya1Qw3LDzRpw+q1Qmt9vqN73J2+5RCkarh1aC+TPpbhPFr1V7cQ11nSr3oXVg/kz+Ng/vplLMKRWcACL3xhfNFNzv8z7zOCuvEqy2i2apmPpXd1Ovm9xFkWApGO55uTN1IALw2z/ajVCgUOEprWHEQbec494QdTXg34tuTQRMpeyDlTSy+8XZAiGJiZg9FyiHNMJUqgXb/r3oQ+XszdxymDTSIBf3a+iT0FBhTZBRjqLESwilMOmMttb+UuB1DwrHVqrVzmZDgwym1oIxanVxDdDa0QJ0exJYx6y2aMhg4iRCVtBVbY0mTQVc23puMqpOYp3eCJcEpiMvDwIHaIlWb9g57tuHxWF/HAy1TO+PZ880CEntsBggTZkzjUMDm2pl9tgHvrJmiqzTVeswlmysjJlE0m81cUNIUNkyCZVJyZsngsqUSWffkMbFaSJkqEyZqL3+LCT012i9Xk8bjQfJ1OHMyyyZRJrIAG0Yd/9TFEXwfiZLFnvrTYZMfYHJhG8b76d8Bo30+qkjUBypByxh2KdDkl7nDkX6DSqe1E3KzSTUQiFruHIzUUUgS9TG/FIzMYpAWha1MJWZiT6ExrIS/f5pmWTGPZFuOGDcyYxq30UysZ+ClgUTtwhExPxIe4tUzxtUOM9ryoAprAgMkDjHxrS7FJLXNxJamJo5PNohUGom6qggS5zmoiSlZRJamKy76DfKUCmZxIpA6RUTrnRMugBRE2TZiBdROiaRtRYco98nW6ViEikCyYO2OSgNk1AReJBzBClMKZhEikCyYspFyZmE1lpJh6rClZhJqAhUIhamYT+NBpwPLCkTvjDx9voHCxP7t99ZiVtGft+IPeSETNjCBA7HPWuPOHwg8h07nh/L1DfCikBvK64+oCIGXJh6CnsbaKn6RnsSqUHv/UKemMN7Vl2ZanesCAzObhLN8qBicoxafiZsYYJHK/ETNHBh2qvltxN+jwmefcFOeMKFyW0gl54Jz/JgnwP1PVgxddxfIIkps7hHHie7Ohl6KAguTP42KA7TIOWDs0FWfSPqQNPBK8w15DL8XZc9hRwmvQ2UNOI8Oz8+05jKxpXjcIQ2j5CF6fLu3GMKvVTivGl8JtYBdoButkEWpmuekP5ZqnGUhZ0IoQtTRZiiOkVwYYJ/D6DsTPSDO/DJBVPwLJ/jG0cJmEKdD62YKsTEOZbvI6GtvCox8RuV+CJYJaZGj7OrmmjlVYqJeoaoL/KRd9ViYt9HuyFaeVVjagyovhHVyqscE9XfU6jeUPWYGnf485XoQ88VZGpoSF+PtSuvikwN/eifv1CtBet+cSWZ3EeL3gBw02e3kCvK5Ejn3rmoLhNfNVN2qpniqSgmmc/NQc4DLto5CnlIp0ymglQziaiXw9+RzJsp2TMos1TSpwmF6BB+Wl2+4vw1JkElel5jhpLybOJDsd4nZSukvigSKmrHSVKotpQ/HC4iVZV2Hm40uUl13yyh1HZH6oa0VhGSCVSrVq1atWrVqlWrVq1atWrVqhVP/wPYESdIa6mFRQAAAABJRU5ErkJggg==" alt="Image" class="img-fluid">
+           </div>
+          </section>
+          <section id="i67n43-3" draggable="true" class="p-0">
+           <div id="i1eeot-3" draggable="true" class="container p-0">
+            <div id="iqe7r4-3" draggable="true">
+             What's New
+            </div>
+            <div id="ivwwsq-3" draggable="true">
+             Our latest Avada update
+            </div>
+           </div>
+           <div id="ip3mlf-3" draggable="true" class="container p-0">
+            <img id="idbhh2-3" draggable="true" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjD4IA9c1XUVBsY2iY2VrD6U7RNAAvIoZILSSAjRpGp1O4ckTIW9gBP10IozdlNR2u0e0&amp;usqp=CAU" alt="Image" class="img-fluid">
+           </div>
+          </section>
+         </div>
+        </section>
+       </div>
+      </div>
+      <li id="i49zs-3" draggable="true" class="nav-item">
+       <div id="i2kyfm-3" draggable="true" class="nav-item dropdown">
+        <a id="in06ig-3" draggable="true" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Avada For</a>
+        <div id="ihdjwi-3" draggable="true" class="dropdown-menu">
+         <section id="iwicj6-3" draggable="true" class="p-0">
+          <section id="ie3koa-3" draggable="true" class="p-0">
+           <a id="ijrp67-3" draggable="true" page="page://ZDRN9GICbqr4TW2Pi" name="BeginnersFor" slug="beginnersfor" href="//khushboo-project-git-main-shopiana-webbuilder-production.vercel.app/beginnersfor.html" link-type="page" class="text-decoration-none"><span id="iyzxxy-3" draggable="true">Beginners</span></a><a id="iklu9n-3" draggable="true" page="page://ZDRN9GICbqr4TW2Pi" name="BeginnersFor" slug="beginnersfor" href="//khushboo-project-git-main-shopiana-webbuilder-production.vercel.app/beginnersfor.html" link-type="page" class="text-decoration-none"><span id="icza5g-3" draggable="true">Create your own site with ease&nbsp;</span></a>
+          </section>
+          <section id="ips9ak-3" draggable="true" class="p-0">
+           <img id="iwe2bi-3" draggable="true" src="https://avada.com/wp-content/uploads/2021/06/for-beginners@2x.jpg" alt="Image" class="img-fluid">
+          </section>
+         </section>
+         <section id="i6ps37-3" draggable="true" class="p-0">
+          <section id="i7ptpi-3" draggable="true" class="p-0">
+           <a id="ihm8b7-3" draggable="true" page="page://ZDRN9GICbqr4TW2Pi" name="BeginnersFor" slug="beginnersfor" href="//khushboo-project-git-main-shopiana-webbuilder-production.vercel.app/beginnersfor.html" link-type="page" class="text-decoration-none"><span id="ipl16s-3" draggable="true">Marketers</span></a><a id="iwe6gg-3" draggable="true" page="page://ZDRN9GICbqr4TW2Pi" name="BeginnersFor" slug="beginnersfor" href="//khushboo-project-git-main-shopiana-webbuilder-production.vercel.app/beginnersfor.html" link-type="page" class="text-decoration-none"><span id="ilyb42-3" draggable="true">Grow your business fast&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></a>
+          </section>
+          <section id="if6a0f-3" draggable="true" class="p-0">
+           <img id="i9kqsp-3" draggable="true" src="https://avada.com/wp-content/uploads/2021/06/for-marketers@2x.jpg" alt="Image" class="img-fluid">
+          </section>
+         </section>
+         <section id="izcyk8-3" draggable="true" class="p-0">
+          <section id="i8patc-3" draggable="true" class="p-0">
+           <a id="i08tdv-3" draggable="true" page="page://ZDRN9GICbqr4TW2Pi" name="BeginnersFor" slug="beginnersfor" href="//khushboo-project-git-main-shopiana-webbuilder-production.vercel.app/beginnersfor.html" link-type="page" class="text-decoration-none"><span id="if0em5-3" draggable="true">Professionals</span></a><a id="i067o2-3" draggable="true" page="page://ZDRN9GICbqr4TW2Pi" name="BeginnersFor" slug="beginnersfor" href="//khushboo-project-git-main-shopiana-webbuilder-production.vercel.app/beginnersfor.html" link-type="page" class="text-decoration-none"><span id="i454yq-3" draggable="true">Optimize your project workflow</span></a>
+          </section>
+          <section id="is51s9-3" draggable="true" class="p-0">
+           <img id="id27cu-3" draggable="true" src="https://avada.com/wp-content/uploads/2021/06/for-pro-2@2x.jpg" alt="Image" class="img-fluid">
+          </section>
+         </section>
+        </div>
+       </div></li>
+      <li id="ia1apj" draggable="true" class="nav-item"><a id="idwam-3" draggable="true" href="#" class="nav-link mx-2">Hosting</a></li>
+      <li id="i58c5f" draggable="true" class="nav-item"><a id="i8t8u-3" draggable="true" href="#" class="nav-link mx-2">Customization</a></li>
+      <li id="ianxwl-3" draggable="true" class="nav-item"></li>
+      <div id="iry5au-3" draggable="true" class="nav-item dropdown">
+       <a id="itzxwg-3" draggable="true" href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Messages</a>
+       <div id="iq21cx-3" draggable="true" class="dropdown-menu">
+        <section id="iwgp1i-3" draggable="true" class="p-0">
+         <div id="id0rxe-3" draggable="true" class="container">
+          <img id="iqzu04-3" draggable="true" src="data:image/png;base64,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" alt="Image" class="img-fluid">
+         </div>
+         <div id="iv4dam-3" draggable="true" class="container">
+          <div id="i984lo-3" draggable="true">
+           Help Center
+          </div>
+          <div id="istkma-3" draggable="true">
+           Avada Documentation &amp; help
+          </div>
+         </div>
+        </section>
+        <section id="i32vou-3" draggable="true" class="p-0">
+         <div id="ij5mbi-3" draggable="true" class="container">
+          <img id="ilzifr-3" draggable="true" src="data:image/png;base64,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" alt="Image" class="img-fluid">
+         </div>
+         <div id="ix89lg-3" draggable="true" class="container">
+          <div id="iadxfg-3" draggable="true">
+           Video Tutorials
+          </div>
+          <div id="i56hbk-3" draggable="true">
+           For beginners and professionals
+          </div>
+         </div>
+        </section>
+        <section id="ixj6ut-3" draggable="true" class="p-0">
+         <div id="icqrtk-3" draggable="true" class="container">
+          <img id="in05n2-3" draggable="true" src="data:image/png;base64,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" alt="Image" class="img-fluid">
+         </div>
+         <div id="ibcjce-3" draggable="true" class="container">
+          <div id="ipkogy-3" draggable="true">
+           Community
+          </div>
+          <div id="ivyt7k-3" draggable="true">
+           Sharing Avada news
+          </div>
+         </div>
+        </section>
+        <section id="ikjcuc-3" draggable="true" class="p-0">
+         <div id="ib1kdh-3" draggable="true" class="container">
+          <img id="ikkcdu-3" draggable="true" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR45hkssmOgBWVRgZxyOAVTn_JxEeik1FOBqQ&amp;usqp=CAU" alt="Image" class="img-fluid">
+         </div>
+         <div id="i9ve6k-3" draggable="true" class="container">
+          <div id="iyb8e1-3" draggable="true">
+           Blog
+          </div>
+          <div id="i7lvbl-3" draggable="true">
+           The latest Avada news
+          </div>
+         </div>
+        </section>
+       </div>
+      </div>
+     </ul>
+     <ul id="i4afau" draggable="true" class="navbar-nav ms-auto">
+      <li id="i2aeat" draggable="true" class="nav-item"></li>
+      <li id="ibzlnr" draggable="true" class="nav-item"><a id="i8cah-3" draggable="true" href="#" class="nav-link mx-2">My Avada</a></li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <section id="ipdx8cn" class="p-0">
+   <div id="iyegqlc" class="container-fluid">
+    <div id="i2t167k" class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+     <div id="ia0wp2m" class="col p-0">
+      <img src="https://www.pcworld.com/wp-content/uploads/2023/04/sale_300244_article_image-100898590-orig.jpg?resize=1024%2C769&amp;quality=50&amp;strip=all" alt="Image" id="i7j4zor" class="img-fluid">
+     </div>
+     <div id="imkazc5" class="col p-0">
+      <section id="ix2shph">
+       <div id="i6krosy">
+        Avada Is For Marketers
+       </div>
+       <div id="ihafiqm">
+        Generate 
+        <br>
+        Leads &amp; 
+        <br>
+        Conversions
+       </div>
+       <div id="iogl7n3">
+        Design &amp; build branded websites, including targeted content layouts, that perfectly align with your inbound marketing strategies.
+       </div><a id="iyv42m4" class="text-decoration-none">By Avada For $69 -&gt;</a>
+      </section>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="i21qx6k" class="p-0">
+   <div id="ixr4zq2" class="container-fluid">
+    <div class="row p-2 row-cols-1 row-cols-sm-2 row-cols-md-3">
+     <div class="col">
+      <section id="i0sfy56">
+       <img src="https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="Image" id="ilt6gl8" class="img-fluid">
+      </section>
+      <div id="ivyzkiw">
+       Design Freedom
+      </div>
+      <div id="i6eyaip">
+       Design unique&nbsp; websites &amp; content that aligns with your marketing goals to convert leads 
+       <br>
+       into sales
+      </div>
+      <section id="ily97xs">
+       <a id="i6t5z0e" class="text-decoration-none">Take Control Over Design</a>
+      </section>
+     </div>
+     <div class="col">
+      <section id="idvc3ma">
+       <img src="https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="Image" id="i0m6ouj" class="img-fluid">
+      </section>
+      <div id="i3ytbp1">
+       Create any website, Fast!
+      </div>
+      <div id="inip2sk">
+       Avada is highly flexible, with an intuitive Drag &amp; Drop interface that gives you absolute design control
+      </div>
+      <section id="ip77xn6">
+       <a id="i1j9qj5" class="text-decoration-none">Build Custom Websites</a>
+      </section>
+     </div>
+     <div class="col">
+      <section id="iwur7f1">
+       <img src="https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="Image" id="ij721ax" class="img-fluid">
+      </section>
+      <div id="ipvvdxl">
+       Launch Website that Sell
+      </div>
+      <div id="ine8467">
+       Set up an online store with only a few clicks customize the storefront &amp; product layout with ease
+      </div>
+      <section id="igw5xwe">
+       <a id="i1e82w5" class="text-decoration-none">Grow Your Business</a>
+      </section>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="i5ouh45">
+   <div id="irar3ni" class="container">
+    <div id="i88n0ig">
+     Design Freedom
+    </div>
+    <div id="idbcnwr">
+     You have total control over the creative process to elevate the website’s brand 
+     <br>
+     message above the competition.
+    </div><img src="https://avada.com/wp-content/uploads/2021/07/live-visual.jpg" alt="Image" id="izpkobw" class="img-fluid">
+    <div id="i2vzgag">
+     Intuitive Visual Drag &amp; Drop Website Builder
+    </div>
+    <div id="icuqsau">
+     Avada’s visual workflow &amp; layout options will give you the confidence to manage your website’s content on the fly.
+    </div>
+    <section id="i10e6oc" class="p-0">
+     <div id="ihbdacz" class="px-4">
+      <div id="ilm931h" class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+       <div class="col">
+        <img src="https://avada.com/wp-content/uploads/2023/03/complete-creative-design-freedom-600x427.png" alt="Image" id="i1zphq9" class="img-fluid">
+        <div id="i4s144o">
+         120+ Design &amp; Layout Elements
+        </div>
+        <div id="imrruc6">
+         Tools that make it possible for you to convey your brands’ message accurately &amp; no coding knowledge is required.
+        </div>
+       </div>
+       <div class="col">
+        <img src="https://avada.com/wp-content/uploads/2023/03/design-anything-build-everything-600x473.png" alt="Image" id="it0qoak" class="img-fluid">
+        <div id="ihwu9cz">
+         Design Anything &amp; Build Everything
+        </div>
+        <div id="io0odif">
+         Align your website with your inbound marketing strategy &amp; turn potential customers into repeat customers.
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+   </div>
+  </section>
+  <section id="iioqtuz">
+   <div id="ik7gjws">
+    Create Any Website, Fast!
+   </div>
+   <div id="inw6a6n">
+    Prebuilt websites &amp; content, options to build the layouts you want, extensive help resources &amp; world-class support will guarantee an efficient workflow to save you time.
+   </div>
+   <div id="ii24i7w" class="container-fluid">
+    <div class="row p-2 row-cols-1 row-cols-sm-2 row-cols-md-3">
+     <div class="col">
+      <img src="https://avada.com/wp-content/uploads/2021/06/launch-2@2x-600x368.jpg" alt="Image" id="ioejhpu" class="img-fluid">
+      <div id="i12111x">
+       Prebuilt Websites &amp; Content
+      </div>
+      <div id="i8vo6ie">
+       Prebuilt resources are designed to save you time, providing your workflow with an extensive library of style &amp; design choices.
+      </div>
+     </div>
+     <div class="col">
+      <img src="https://avada.com/wp-content/uploads/2021/07/no-coding-3-600x368.jpg" alt="Image" id="ij8deqz" class="img-fluid">
+      <div id="iw898bl">
+       No Coding Knowledge Required
+      </div>
+      <div id="im21xil">
+       Years of evolution guarantee that Avada’s website building tools are intuitive, with an extensive range of options.
+      </div>
+     </div>
+     <div class="col">
+      <img src="https://avada.com/wp-content/uploads/2021/08/support-8-400x287.jpg" alt="Image" id="i2yihxn" class="img-fluid">
+      <div id="ikohmyl">
+       World-Class Support
+      </div>
+      <div id="irrj3n9">
+       Our team focuses on building long-term professional relationships with our customers that you can rely on &amp; trust.
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="i9lvmtk" class="p-0">
+   <div id="i9xjr7y">
+    Launch Websites That Sell
+   </div>
+   <div id="ix5jbhm">
+    WooCommerce is perfectly integrated with Avada, ensuring continual compatibility as online business requirements &amp; trends evolve. Setting up an eCommerce store could not be any easier.
+   </div>
+   <div id="idhci5a" class="container-fluid">
+    <div id="impdpzk" class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+     <div id="ioy7g1o" class="col">
+      <div id="iglt2km">
+       Online Store Builder
+      </div>
+      <div id="i1j4v8l">
+       Design bespoke storefronts &amp; product pages that will increase engagement for new and returning customers.
+      </div><a id="ioz10sb" class="text-decoration-none">Build Your Store</a>
+     </div>
+     <div class="col">
+      <img src="https://avada.com/wp-content/uploads/2021/07/footer-cta-600x369.png" alt="Image" id="ia0dsc2" class="img-fluid">
+     </div>
+    </div>
+   </div>
+   <div id="iba6foa" class="container-fluid">
+    <div id="iog7efm" class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+     <div class="col">
+      <img src="https://avada.com/wp-content/uploads/2023/03/off-canvas-feature.jpg" alt="Image" id="ieqvcy3" class="img-fluid">
+     </div>
+     <div id="it1j328" class="col">
+      <div id="ih72ght">
+       Off-Canvas Builder
+      </div>
+      <div id="i5p347y">
+       Build traditional popups, sliding bars, and even fullscreen overlays with many features that will allow you to trigger or control the behavior.
+      </div><a id="ixboswe" class="text-decoration-none">Grow Your Business</a>
+     </div>
+    </div>
+   </div>
+   <div id="i42f0gw" class="container-fluid">
+    <div id="ishtbfk" class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+     <div id="ivmawsi" class="col">
+      <div id="ig6u1en">
+       Form Builder
+      </div>
+      <div id="ikn9ehy">
+       Build custom branded forms for any purpose &amp;&nbsp; add them anywhere
+      </div><a id="idwn40m" class="text-decoration-none">Build Website Forms</a>
+     </div>
+     <div class="col">
+      <img src="https://avada.com/wp-content/uploads/2021/07/footer-builder-5.jpg" alt="Image" id="i6didgd" class="img-fluid">
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="iph4k8g" class="p-0"></section>
+  <section id="icicb5i" class="p-0"></section>
+  <section id="ikuc04h">
+   <div id="it4dlq2">
+    <div id="iy682sf" class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+     <div class="col">
+      <div id="idyeedh">
+       Plugin Integrations
+      </div>
+      <div id="insydi1">
+       Avada is compatible with popular WordPress plugins.
+      </div><img src="https://avada.com/wp-content/uploads/2021/08/integration-4-400x254.jpg" alt="Image" id="ikqfedr" class="img-fluid">
+     </div>
+     <div class="col">
+      <div id="isqwqoc">
+       Website Performance
+      </div>
+      <div id="i9y1yan">
+       Avada is compatible with popular WordPress plugins.
+      </div><img src="https://avada.com/wp-content/uploads/2021/07/performance-8-400x312.jpg" alt="Image" id="ic4ggg7" class="img-fluid">
+     </div>
+     <div class="col">
+      <div id="imuig6f">
+       Avada Motion Effects
+      </div>
+      <div id="iodlft5">
+       Avada is compatible with popular WordPress plugins.
+      </div><img src="https://avada.com/wp-content/uploads/2021/08/mobile-friendly-9-400x259.jpg" alt="Image" id="iac146e" class="img-fluid">
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="inlgz79">
+   <div id="igsovs3">
+    <div id="ivn6ew3" class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+     <div class="col">
+      <div id="ivh215a">
+       Mobile Friendly
+      </div>
+      <div id="iuvr23h">
+       Avada is compatible with popular WordPress plugins.
+      </div><img src="https://avada.com/wp-content/uploads/2021/08/mobile-friendly-9-400x259.jpg" alt="Image" id="im3ywgs" class="img-fluid">
+     </div>
+     <div id="i8m5i1i" class="col">
+      <div id="ircb6r7">
+       SEO Friendly
+      </div>
+      <div id="irx2v2b">
+       Avada is compatible with popular WordPress plugins.
+      </div><img src="https://avada.com/wp-content/uploads/2021/08/integration-4-400x254.jpg" alt="Image" id="il13pq8" class="img-fluid">
+     </div>
+     <div class="col">
+      <div id="ijc69br">
+       Multilangual Support
+      </div>
+      <div id="ifs2n54">
+       Avada is compatible with popular WordPress plugins.
+      </div><img src="https://avada.com/wp-content/uploads/2021/07/performance-8-400x312.jpg" alt="Image" id="isqjadk" class="img-fluid">
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="i5cl1gw" class="p-0">
+   <div id="i69u4ek" class="container-fluid">
+    <div id="ignqud9" class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+     <div id="iz1metj" class="col">
+      <section id="ihsve2k">
+       <section id="ih1bhal">
+        <div id="ikydbdo">
+         Avada Studio
+        </div>
+        <div id="ix8spch">
+         Expansive library of&nbsp; multi-use content designed professionally to speed up your workflow. Get&nbsp; a head start with prebuilt headers to footers, container to elements, and everything in between.
+        </div><a id="ibb7fty" class="text-decoration-none">Explore Prebuilt Content</a>
+       </section>
+      </section>
+     </div>
+     <div id="iywqvhe" class="col">
+      <img src="https://avada.com/wp-content/uploads/2023/03/design-anything-build-everything-600x473.png" alt="Image" id="is2n0jy" class="img-fluid">
+     </div>
+    </div>
+   </div>
+  </section>
+  <div custom_block_template="true" block_id="customBlockTemplate_text_question" id="i6yib9-2" draggable="true" class="container-fluid border py-4 gjs-selected">
+   <h1 id="itvghl-2" draggable="true" class="text-center">Frequently Asked Questions</h1>
+   <div id="ilms4k-2" draggable="true" class="accordion">
+    <div id="iv4uvo-2" draggable="true" class="accordion-item">
+     <div id="ie62pl-2" draggable="true" class="accordion-item-header">
+      <h2 id="ird0bl-2" draggable="true" class="fs-5 m-0">What Is Included With My Purchase Of Avada ?</h2>
+     </div>
+     <div id="imxzrc-2" draggable="true" class="accordion-item-body">
+      <div id="iiqccc-2" draggable="true" class="accordion-item-body-content">
+       <p id="ib781c-2" draggable="true"></p>
+       <div id="iaggrq-2" draggable="true" class="fusion-text fusion-text-20 fusion-text-no-margin">
+        <p id="ijvt2i-2" draggable="true">With your purchase of Avada, you will receive:</p>
+       </div>
+       <ul id="i4o5ci-2" draggable="true" class="fusion-checklist fusion-checklist-1 fusion-checklist-default type-icons">
+        <li id="i43jm9-2" draggable="true" class="fusion-li-item">
+         <div id="ikqc9h-2" draggable="true" class="fusion-li-item-content">
+          6 months of free professional support.
+         </div></li>
+        <li id="i0fq2f-2" draggable="true" class="fusion-li-item">
+         <div id="iqqx2o-2" draggable="true" class="fusion-li-item-content">
+          8 bundled premium plugins.
+         </div></li>
+        <li id="i41ks7-2" draggable="true" class="fusion-li-item">
+         <div id="it6sgh-2" draggable="true" class="fusion-li-item-content">
+          Your Content Goes Here
+         </div></li>
+        <li id="ipnx7m-2" draggable="true" class="fusion-li-item">
+         <div id="ixzwcx-2" draggable="true" class="fusion-li-item-content">
+          Your Content Goes Here
+         </div></li>
+        <li id="ij0snj-2" draggable="true" class="fusion-li-item">
+         <div id="iziv8v-2" draggable="true" class="fusion-li-item-content">
+          120+ Design and Layout Elements.
+         </div></li>
+        <li id="icqoij-2" draggable="true" class="fusion-li-item">
+         <div id="izj5bj-2" draggable="true" class="fusion-li-item-content">
+          550+ detailed help files, continually updated to ensure everything is current.
+         </div></li>
+        <li id="i1jobl-2" draggable="true" class="fusion-li-item">
+         <div id="ilxz8w-2" draggable="true" class="fusion-li-item-content">
+          200+ video tutorials, with new videos, added regularly.
+         </div></li>
+        <li id="i91fee-2" draggable="true" class="fusion-li-item">
+         <div id="ihbqdk-2" draggable="true" class="fusion-li-item-content">
+          Free, consistent, and stable updates to ensure compatibility with industry standards &amp; trends.
+         </div></li>
+        <li id="i167dw-2" draggable="true" class="fusion-li-item"><span id="i2ob37-2" draggable="true" class="icon-wrapper circle-no"><span id="ijorqk-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="iqpjbq-2" draggable="true" class="fusion-li-item-content">
+          Avada works with popular 3rd party plugins like Yoast SEO, WooCommerce, The Events Calendar, HubSpot, WPML, and more.
+         </div></li>
+       </ul>This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.
+       <p></p>
+      </div>
+     </div>
+    </div>
+    <div id="isny9k-2" draggable="true" class="accordion-item">
+     <div id="iqf7qm-2" draggable="true" class="accordion-item-header">
+      <h2 id="i3bk6a-2" draggable="true" class="fs-5 m-0">Are There Any Recurring Fees ?</h2>
+     </div>
+     <div id="inxfnf-2" draggable="true" class="accordion-item-body">
+      <div id="i4moce-2" draggable="true" class="accordion-item-body-content">
+       <p id="iwv5pd-2" draggable="true"><span id="ikfqcr-2" draggable="true">No, there are no recurring license fees to use Avada. It is a one-time purchase that provides you with lifetime updates at no extra cost and is valid for life. You can choose to purchase a support extension after the initial 6 months of support has expired. However, this is entirely optional.</span></p>
+      </div>
+     </div>
+    </div>
+    <div id="itntbd-2" draggable="true" class="accordion-item">
+     <div id="iq2zil-2" draggable="true" class="accordion-item-header">
+      <h2 id="io6nxk-2" draggable="true" class="fs-5 m-0">Where Can I Get Support ?</h2>
+     </div>
+     <div id="iuf2ov-2" draggable="true" class="accordion-item-body">
+      <div id="ireraa-2" draggable="true" class="accordion-item-body-content">
+       <p id="ims9hn-2" draggable="true"><span id="iccahi-2" draggable="true">Hands-on support with our professional team of support experts is accessible 24/7, and that includes an extensive library of detailed&nbsp;</span><a id="if81lb-2" draggable="true" href="https://avada.com/help-center/" target="_blank" rel="noopener">documentation</a><span id="icm5g4-2" draggable="true">&nbsp;and&nbsp;</span><a id="itkkga-2" draggable="true" href="https://www.youtube.com/@AvadaVideos/videos" target="_blank" rel="noopener">video tutorials</a><span id="i5m0mi-2" draggable="true">.<br id="iunpue-2" draggable="true"></span></p>
+       <ul id="ibu0qj-2" draggable="true" class="fusion-checklist fusion-checklist-2 fusion-checklist-default type-icons">
+        <li id="ic2voj-2" draggable="true" class="fusion-li-item">
+         <div id="izlwuj-2" draggable="true" class="fusion-li-item-content">
+          To access support you will need to register a support account by following these&nbsp;<a id="iw5ncf-2" draggable="true" href="https://avada.com/documentation/how-to-register-for-avada-support" target="_blank" rel="noopener">steps</a>.
+         </div></li>
+        <li id="iihzzu-2" draggable="true" class="fusion-li-item"><span id="iptntw-2" draggable="true" class="icon-wrapper circle-no"><span id="iz93cj-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-angle-right fas"></span></span>
+         <div id="i6w158-2" draggable="true" class="fusion-li-item-content">
+          Once your support account is set up, you can submit support tickets&nbsp;<a id="ivcz4t-2" draggable="true" href="https://my.avada.com/tickets/" target="_blank" rel="noopener">here</a>.
+         </div></li>
+        <li id="im3j99-2" draggable="true" class="fusion-li-item"><span id="ioim9a-2" draggable="true" class="icon-wrapper circle-no"><span id="ieg537-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-angle-right fas"></span></span>
+         <div id="inat26-2" draggable="true" class="fusion-li-item-content">
+          Learn how to navigate your support account Dashboard&nbsp;<a id="ionp3n-2" draggable="true" href="https://avada.com/documentation/how-to-use-the-avada-support-desk" target="_blank" rel="noopener">here</a>.
+         </div></li>
+        <li id="ihiwtk-2" draggable="true" class="fusion-li-item"><span id="i868pl-2" draggable="true" class="icon-wrapper circle-no"><span id="ibpyzf-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-angle-right fas"></span></span>
+         <div id="ig8ud1-2" draggable="true" class="fusion-li-item-content">
+          Check to see if you are eligible for&nbsp;<a id="igdyp1-2" draggable="true" href="https://avada.com/documentation/avada-grandfathered-support" target="_blank" rel="noopener">Grandfathered support</a>.
+         </div></li>
+        <li id="iihvex-2" draggable="true" class="fusion-li-item"><span id="i5l0bf-2" draggable="true" class="icon-wrapper circle-no"><span id="ie6tvj-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-angle-right fas"></span></span>
+         <div id="i6cdtk-2" draggable="true" class="fusion-li-item-content">
+          For a detailed overview of our support policy please go&nbsp;<a id="i4cfrl-2" draggable="true" href="https://avada.com/support-policy/" target="_blank" rel="noopener">here</a>.
+         </div></li>
+       </ul><span id="i7j17n-2" draggable="true"><br id="ilwx9l-2" draggable="true"></span>
+       <p></p>
+      </div>
+     </div>
+    </div>
+    <div id="izdf01-2" draggable="true" class="accordion-item">
+     <div id="i6zkqx-2" draggable="true" class="accordion-item-header">
+      <h2 id="ijtgz9-2" draggable="true" class="fs-5 m-0">Are The Prebuilt Websites Fully Customizable ?</h2>
+     </div>
+     <div id="i0at57-2" draggable="true" class="accordion-item-body">
+      <div id="iu5mr6-2" draggable="true" class="accordion-item-body-content">
+       <p id="i10e38-2" draggable="true"></p>
+       <p id="i7l11m-2" draggable="true">Yes, each prebuilt website is 100% customizable. All prebuilt websites are professionally designed by our in-house design team, created to showcase Avada’s capabilities and save you time.</p>
+       <p id="i3eseh-2" draggable="true">Once you import a prebuilt website, you can entirely customize the content and layouts to your liking. You can add your own imagery, change text, change colors or completely change any of the layouts using the&nbsp;<a id="iq1qjk-2" draggable="true" href="https://avada.com/features/" target="_blank" rel="noopener">Avada Website Builder</a>.</p>
+       <p></p>
+      </div>
+     </div>
+    </div>
+    <div id="ifldxe-2" draggable="true" class="accordion-item">
+     <div id="iy7jg5-2" draggable="true" class="accordion-item-header">
+      <h2 id="i77w4g-2" draggable="true" class="fs-5 m-0">Why should I Trust Avada ?</h2>
+     </div>
+     <div id="iytaan-2" draggable="true" class="accordion-item-body">
+      <div id="isoh6c-2" draggable="true" class="accordion-item-body-content">
+       <p id="i4ll4g-2" draggable="true"></p>
+       <div id="irtdaj-2" draggable="true" class="fusion-text fusion-text-24 fusion-text-no-margin">
+        <p id="ica7i6-2" draggable="true">Trust is a quality that we take great care to foster and maintain by building long-term professional relationships that our customers can rely on. Here are some important qualifiers:</p>
+       </div>
+       <ul id="ik5cao-2" draggable="true" class="fusion-checklist fusion-checklist-3 fusion-checklist-default type-icons">
+        <li id="i0hxjh-2" draggable="true" class="fusion-li-item"><span id="izdrio-2" draggable="true" class="icon-wrapper circle-no"><span id="iiwrug-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="izcvpl-2" draggable="true" class="fusion-li-item-content"></div></li>
+        <li id="i17xyz-2" draggable="true" class="fusion-li-item"><span id="i0ih5w-2" draggable="true" class="icon-wrapper circle-no"><span id="i0g3kq-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="if5c7j-2" draggable="true" class="fusion-li-item-content">
+          We love what we do and who we do it for. Your future is our focus.
+         </div></li>
+        <li id="i9aokc-2" draggable="true" class="fusion-li-item"><span id="i9b6zz-2" draggable="true" class="icon-wrapper circle-no"><span id="i6laml-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="ibl1yv-2" draggable="true" class="fusion-li-item-content">
+          Avada is 100% developed and maintained in-house.
+         </div></li>
+        <li id="i6zvcq-2" draggable="true" class="fusion-li-item"><span id="ig423d-2" draggable="true" class="icon-wrapper circle-no"><span id="ixtyft-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="i5ci3h-2" draggable="true" class="fusion-li-item-content">
+          Free, consistent, and stable updates to ensure compatibility with industry standards &amp; trends.
+         </div></li>
+        <li id="ikglzg-2" draggable="true" class="fusion-li-item"><span id="ixyo42-2" draggable="true" class="icon-wrapper circle-no"><span id="ird7ph-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="i05793-2" draggable="true" class="fusion-li-item-content">
+          Avada has no dependence on 3rd parties to deliver a stable &amp; seamless website building experience.
+         </div></li>
+        <li id="idbrnh-2" draggable="true" class="fusion-li-item"><span id="img6kv-2" draggable="true" class="icon-wrapper circle-no"><span id="it0nmt-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="isonx4-2" draggable="true" class="fusion-li-item-content">
+          550+ detailed help files, continually updated to ensure everything is current.
+         </div></li>
+        <li id="ifacoh-2" draggable="true" class="fusion-li-item"><span id="i6a166-2" draggable="true" class="icon-wrapper circle-no"><span id="il1fea-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="iys3s6-2" draggable="true" class="fusion-li-item-content">
+          200+ video tutorials, with new videos, added regularly.
+         </div></li>
+        <li id="i8qud3-2" draggable="true" class="fusion-li-item"><span id="im0kfk-2" draggable="true" class="icon-wrapper circle-no"><span id="ioce9l-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="itdbfb-2" draggable="true" class="fusion-li-item-content">
+          Avada works with popular 3rd party plugins like Yoast SEO, WooCommerce, The Events Calendar, HubSpot, WPML, and more.
+         </div></li>
+        <li id="inauio-2" draggable="true" class="fusion-li-item"><span id="iloixp-2" draggable="true" class="icon-wrapper circle-no"><span id="ian6hj-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="iy08zf-2" draggable="true" class="fusion-li-item-content">
+          Years of evolving Avada by listening to our customer’s feedback is what helps shape Avada’s&nbsp;<a id="imeur8-2" draggable="true" href="https://my.avada.com/feature-voting/" target="_blank" rel="noopener">roadmap</a>&nbsp;for the future.
+         </div></li>
+        <li id="i75mjd-2" draggable="true" class="fusion-li-item"><span id="ihmbjb-2" draggable="true" class="icon-wrapper circle-no"><span id="isja3v-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="ifsix1-2" draggable="true" class="fusion-li-item-content">
+          A vast, passionate community of Avada customers drives a well-established Facebook group and a community forum.
+         </div></li>
+        <li id="ia2szm-2" draggable="true" class="fusion-li-item"><span id="i0wq7k-2" draggable="true" class="icon-wrapper circle-no"><span id="ikx5fe-2" draggable="true" aria-hidden="true" class="fusion-li-icon fa-check fas"></span></span>
+         <div id="iot3zj-2" draggable="true" class="fusion-li-item-content">
+          Your Content Goes Here
+         </div></li>
+       </ul>
+       <p></p>
+      </div>
+     </div>
+    </div>
+   </div>
   </div>
+  <section id="iua88yf">
+   <section id="i53kkrw">
+    <div id="idsbl63" class="container px-4 py-2">
+     <div class="row p-2 row-cols-1 row-cols-sm-2 row-cols-md-2">
+      <div class="col">
+       <section id="ifobwtg">
+        <div id="i92vv14">
+         Build Successful 
+         <br>
+         Website With Avada
+         <br>
+        </div>
+        <div id="ivpzr9m">
+         Whether you are a beginner, marketer, or professional, Avada has the tools &amp; resources you can rely on to succeed.
+        </div><a id="i1pjl4q" class="text-decoration-none">Buy Avada For Rs 69</a>
+       </section>
+      </div>
+      <div id="iw8ywzn" class="col">
+       <img src="https://avada.com/wp-content/uploads/2021/07/footer-cta-600x369.png" alt="Image" class="img-fluid">
+      </div>
+     </div>
+    </div>
+   </section>
+   <div class="container">
+    <footer class="text-center text-lg-start text-white">
+     <!-- Grid container -->
+     <div id="ioudkyn" class="container p-4">
+      <!--Grid row-->
+      <div class="row my-4">
+       <!--Grid column-->
+       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <div id="i1xoi0d" class="shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto">
+         <img src="https://avada.com/wp-content/uploads/2021/11/avada-logo-light-svg.svg" alt="Image" id="i0n51yg" class="img-fluid">
+        </div>
+       </div><!--Grid column--><!--Grid column-->
+       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <ul class="list-unstyled">
+         <li class="mb-2"><a href="#!" id="impkjmm" class="text-decoration-none">Help Center</a></li>
+         <li class="mb-2"><a href="#!" id="iox3taj" class="text-decoration-none">Avada Studio</a></li>
+         <li class="mb-2"><a href="#!" id="i81ph4f" class="text-decoration-none">Prebuilt Website</a></li>
+         <li class="mb-2"><a href="#!" id="i2f14d9" class="text-decoration-none">Reviews</a></li>
+         <li class="mb-2"><a href="#!" id="i5uoxv5" class="text-decoration-none">Submit A Ticket</a></li>
+        </ul>
+       </div><!--Grid column--><!--Grid column-->
+       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <ul class="list-unstyled">
+         <li class="mb-2"><a href="#!" id="iqujknp" class="text-decoration-none">About Us</a></li>
+         <li class="mb-2"><a href="#!" id="ip3zk5i" class="text-decoration-none">Careers</a></li>
+         <li class="mb-2"><a href="#!" id="ikn68wu" class="text-decoration-none">Support Policy</a></li>
+         <li class="mb-2"><a href="#!" id="iturh1p" class="text-decoration-none">Terms And Conditions.</a></li>
+         <li class="mb-2"><a href="#!" id="i8nvbw2" class="text-decoration-none">Privacy Policy</a></li>
+        </ul>
+       </div><!--Grid column--><!--Grid column-->
+       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <ul class="list-unstyled">
+         <li>
+          <p>Sign up to our newsletter and get all of the latest news and updates.<br><br></p></li><input type="text" required placeholder="your email*">
+         <li>
+          <p></p></li>
+         <li></li>
+        </ul>
+       </div><!--Grid column-->
+      </div><!--Grid row-->
+     </div><!-- Grid container --><!-- Copyright -->
+     <div id="icqiwyy" class="text-center p-3 pt-0">
+      <span> © 2020 Copyright: </span>
+      <ul class="list-unstyled d-flex flex-row justify-content-center">
+       <li><a href="#!" class="px-2">
+         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewbox="0 0 16 16" id="is3xzqh" class="bi bi-facebook text-decoration-none">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+         </svg></a></li>
+       <li><a href="#!" class="px-2">
+         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewbox="0 0 16 16" id="izf4kri" class="bi bi-instagram text-decoration-none">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+         </svg></a></li>
+       <li><a href="#!" class="ps-2">
+         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewbox="0 0 16 16" id="iy1amxz" class="bi bi-linkedin text-decoration-none">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
+         </svg></a></li>
+      </ul>
+     </div><!-- Copyright -->
+    </footer>
+   </div>
+  </section>
  </body>
 </html>
 </html>
